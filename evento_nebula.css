@@ -86,3 +86,23 @@
 .psev-stl .psev-contbg u i {
     color: #fff;
 }
+
+.psev-stl-pst {
+    width: 440px !important;
+}
+
+.psev-stl-pst .psev-titb {
+    height: 160px;
+}
+
+.psev-stl-pst .psev-titb img {
+    height: 160px;
+}
+
+.psev-stl-pst2 {
+    padding: 20px;
+}
+
+.psev-stl-pst2 br {
+    display: block;
+}
