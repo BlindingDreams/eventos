@@ -106,3 +106,60 @@
 .psev-stl-pst2 br {
     display: block;
 }
+
+.psev-div p {
+    display: block !important;
+    width: 485px;
+    margin: auto;
+    padding: 20px 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: var(--cletra3);
+}
+
+.dark-mode .psev-div {
+    background: linear-gradient(1deg, #676767b5 0%, #232323b5 100%);
+}
+
+.light-mode .psev-div {
+    background: linear-gradient(1deg, #d7d7d7b5 0%, #e5e5e5b5 100%);
+}
+
+.psev-div {
+    position: relative;
+    right: 40px;
+    width: 655px;
+}
+
+.psev-cimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.psev-cimg {
+    position: relative;
+    width: 260px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.psev-cimg img {
+    width: 260px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.psev-frs {
+    position: absolute;
+    color: var(--cletra2);
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: lowercase;
+    text-shadow: 1px 2px 0px black;
+}
