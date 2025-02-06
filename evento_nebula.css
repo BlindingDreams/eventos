@@ -17,7 +17,7 @@
     height: 220px;
 }
 .psev-stl-pst img {
-    width: 438px;
+    width: 438px !important;
 }
 .psev-stl .psev-icon {
     background: var(--fondo12);
