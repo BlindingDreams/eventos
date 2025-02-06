@@ -112,11 +112,12 @@
     width: 485px;
     margin: auto;
     padding: 20px 10px;
-    font-size: 13px;
+    font-size: 13px !important;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 100;
     text-align: center;
     color: var(--cletra3);
+    margin-bottom: 0px !important;
 }
 
 .dark-mode .psev-div {
