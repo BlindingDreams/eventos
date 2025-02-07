@@ -104,7 +104,7 @@
 }
 
 .psev-stl-pst2 br {
-    display: block !important;
+    display: inline !important;
 }
 
 .psev-div p {
