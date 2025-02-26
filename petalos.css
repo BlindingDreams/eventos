@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Unica+One");
+.peddle-center {
+  stop-color: hsl(320, 100%, 95%);
+}
+
+.peddle-outside {
+  stop-color: hsl(320, 100%, 85%);
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+circle {
+  transform: scale(0.5);
+}
+
+.peddle {
+  transform: rotateY(0deg) rotateZ(0deg) scale(1);
+  animation: bloom 5s ease-in-out infinite;
+}
+
+.blossom {
+  animation: blossom 5s ease-in-out infinite;
+}
+
+.blossom:nth-child(1) {
+  animation-delay: -128.4s;
+  animation-duration: 12s;
+}
+.blossom:nth-child(1) .peddle {
+  animation-delay: -128.4s;
+  animation-duration: 12s;
+}
+
+.blossom:nth-child(2) {
+  animation-delay: -20.4s;
+  animation-duration: 8s;
+}
+.blossom:nth-child(2) .peddle {
+  animation-delay: -20.4s;
+  animation-duration: 8s;
+}
+
+.blossom:nth-child(3) {
+  animation-delay: -48s;
+  animation-duration: 4s;
+}
+.blossom:nth-child(3) .peddle {
+  animation-delay: -48s;
+  animation-duration: 4s;
+}
+
+.blossom:nth-child(4) {
+  animation-delay: -73.2s;
+  animation-duration: 12s;
+}
+.blossom:nth-child(4) .peddle {
+  animation-delay: -73.2s;
+  animation-duration: 12s;
+}
+
+.blossom:nth-child(5) {
+  animation-delay: -2.4s;
+  animation-duration: 8s;
+}
+.blossom:nth-child(5) .peddle {
+  animation-delay: -2.4s;
+  animation-duration: 8s;
+}
+
+.blossom:nth-child(6) {
+  animation-delay: -247.2s;
+  animation-duration: 8s;
+}
+.blossom:nth-child(6) .peddle {
+  animation-delay: -247.2s;
+  animation-duration: 8s;
+}
+
+.blossom:nth-child(7) {
+  animation-delay: -166.2s;
+  animation-duration: 12s;
+}
+.blossom:nth-child(7) .peddle {
+  animation-delay: -166.2s;
+  animation-duration: 12s;
+}
+
+.blossom:nth-child(8) {
+  animation-delay: -231s;
+  animation-duration: 4s;
+}
+.blossom:nth-child(8) .peddle {
+  animation-delay: -231s;
+  animation-duration: 4s;
+}
+
+.blossom:nth-child(9) {
+  animation-delay: -129.6s;
+  animation-duration: 4s;
+}
+.blossom:nth-child(9) .peddle {
+  animation-delay: -129.6s;
+  animation-duration: 4s;
+}
+
+.blossom:nth-child(10) {
+  animation-delay: -27s;
+  animation-duration: 8s;
+}
+.blossom:nth-child(10) .peddle {
+  animation-delay: -27s;
+  animation-duration: 8s;
+}
+
+.blossom:nth-child(11) {
+  animation-delay: -210s;
+  animation-duration: 4s;
+}
+.blossom:nth-child(11) .peddle {
+  animation-delay: -210s;
+  animation-duration: 4s;
+}
+
+.blossom:nth-child(12) {
+  animation-delay: -43.8s;
+  animation-duration: 4s;
+}
+.blossom:nth-child(12) .peddle {
+  animation-delay: -43.8s;
+  animation-duration: 4s;
+}
+
+.blossom:nth-child(13) {
+  animation-delay: -112.2s;
+  animation-duration: 4s;
+}
+.blossom:nth-child(13) .peddle {
+  animation-delay: -112.2s;
+  animation-duration: 4s;
+}
+
+.blossom:nth-child(14) {
+  animation-delay: -147.6s;
+  animation-duration: 8s;
+}
+.blossom:nth-child(14) .peddle {
+  animation-delay: -147.6s;
+  animation-duration: 8s;
+}
+
+.blossom:nth-child(15) {
+  animation-delay: -90.6s;
+  animation-duration: 4s;
+}
+.blossom:nth-child(15) .peddle {
+  animation-delay: -90.6s;
+  animation-duration: 4s;
+}
+
+.blossom:nth-child(16) {
+  animation-delay: -60.6s;
+  animation-duration: 12s;
+}
+.blossom:nth-child(16) .peddle {
+  animation-delay: -60.6s;
+  animation-duration: 12s;
+}
+
+.blossom:nth-child(17) {
+  animation-delay: -183s;
+  animation-duration: 12s;
+}
+.blossom:nth-child(17) .peddle {
+  animation-delay: -183s;
+  animation-duration: 12s;
+}
+
+.blossom:nth-child(18) {
+  animation-delay: -220.8s;
+  animation-duration: 12s;
+}
+.blossom:nth-child(18) .peddle {
+  animation-delay: -220.8s;
+  animation-duration: 12s;
+}
+
+.blossom:nth-child(19) {
+  animation-delay: -285s;
+  animation-duration: 8s;
+}
+.blossom:nth-child(19) .peddle {
+  animation-delay: -285s;
+  animation-duration: 8s;
+}
+
+.blossom:nth-child(20) {
+  animation-delay: -93.6s;
+  animation-duration: 12s;
+}
+.blossom:nth-child(20) .peddle {
+  animation-delay: -93.6s;
+  animation-duration: 12s;
+}
+
+@keyframes blossom {
+  0% {
+    transform: translate(-100px, -100px);
+  }
+  100% {
+    transform: translate(100px, 100px) rotate(20deg);
+  }
+}
+@keyframes bloom {
+  0% {
+    transform: rotateY(90deg) rotateZ(72deg) scale(0);
+  }
+  50% {
+    transform: rotateY(0deg) rotateZ(0deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(40px, 40px) rotate3d(1, 0.5, 1, 90deg);
+  }
+}
+/*Page Setup*/
+svg {
+  width: 100vw;
+  height: 80vh;
+}
+
+body {
+  background: hsl(200, 60%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=petalos.css.map */
