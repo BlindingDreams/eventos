@@ -226,8 +226,12 @@ circle {
     transform: translate(40px, 40px) rotate3d(1, 0.5, 1, 90deg);
   }
 }
-/*Page Setup*/
-svg {
-  width: 100vw;
-  height: 80vh;
+.petalos {
+  position: absolute;
+  top: -403px;
+  left: -181px;
+}
+.petalos svg {
+  width: 1000px;
+  height: 1000px;
 }
