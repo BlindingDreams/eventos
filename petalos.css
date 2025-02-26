@@ -231,13 +231,3 @@ svg {
   width: 100vw;
   height: 80vh;
 }
-
-body {
-  background: hsl(200, 60%, 20%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-/*# sourceMappingURL=petalos.css.map */
